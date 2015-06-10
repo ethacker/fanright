@@ -6,10 +6,6 @@ h1, h2, h3, h4, h5{color:#FFD119}
 .ow_header_pic{background-image:url(http://localhost/ow_userfiles/themes/theme_image_13.png)}
 .ow_main_menu li a{color:#FFD119}
 .ow_txt_value{color:#FFD119}
-.ow_main_menu li.active a, .ow_main_menu li a:hover {
-    color: #E68A00;
-}
-
 body, html {
     font-family: "Tahoma","Lucida Grande", "Verdana";
     color: #ffffff; /** OW_Control type:color, section:2. Colors, key:textColor, label:1. Text **/

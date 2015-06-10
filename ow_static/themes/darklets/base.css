@@ -2922,14 +2922,14 @@ html[xmlns] .ow_main_menu.clearfix {
 }
 
 .ow_main_menu li a {
-    color: #979ca0; /** OW_Control type:color, key:menuColor, section:2. Colors, label:4. Menu text color **/
+    color: #ffffff; /** OW_Control type:color, key:menuColor, section:2. Colors, label:4. Menu text color **/
     display: inline-block;
     font-size: 13px;
     padding: 2px 8px 6px 8px;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: #171c20 0 1px 0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .ow_main_menu li.active a {
@@ -2937,7 +2937,7 @@ html[xmlns] .ow_main_menu.clearfix {
 
 .ow_main_menu li.active a,
 .ow_main_menu li a:hover {
-    color: #0091a9; 
+    color: #FFFFFF; 
 }
 .ow_box_menu {
     font-size: 0px;
@@ -5773,3 +5773,53 @@ td.sort_link li.active a:hover{
     float: left;
     width: 100%;
 }
+
+
+
+/*-------Bootstrap Button Styles-------*/
+
+.btn-custom-lighten.active {
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Colorado;
+    font-weight: bold;
+    }
+    .btn-custom-lighten {
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Colorado;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #747a7d;
+    background-image: -moz-linear-gradient(top, #6a7073, #838a8d);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6a7073), to(#838a8d));
+    background-image: -webkit-linear-gradient(top, #6a7073, #838a8d);
+    background-image: -o-linear-gradient(top, #6a7073, #838a8d);
+    background-image: linear-gradient(to bottom, #6a7073, #838a8d);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6a7073', endColorstr='#ff838a8d', GradientType=0);
+    border-color: #838a8d #838a8d #5e6366;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #838a8d;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+   }
+  .btn-custom-lighten:hover,
+  .btn-custom-lighten:focus,
+  .btn-custom-lighten:active,
+  .btn-custom-lighten.active,
+  .btn-custom-lighten.disabled,
+  .btn-custom-lighten[disabled] {
+  color: #FFFFFF;
+  background-color: #838a8d;
+  *background-color: #767d80;
+  }
+  .btn-custom-lighten:active,
+  .btn-custom-lighten.active {
+  background-color: #6a7073 ;
+  }
+
+
