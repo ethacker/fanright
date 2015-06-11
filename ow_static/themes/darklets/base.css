@@ -273,7 +273,7 @@ body > .ow_page_wrap {
 }
 
 .ow_footer a {
-    color: #0091A9; 
+    color: #FFD119; 
 }
 
 .ow_footer .ow_copyright{
@@ -421,7 +421,9 @@ ul.ow_regular li {
 
 /* ---- Header styles ---- */
 .ow_header {
-    width: 100%;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ow_top {
     position: relative;
@@ -2937,7 +2939,7 @@ html[xmlns] .ow_main_menu.clearfix {
 
 .ow_main_menu li.active a,
 .ow_main_menu li a:hover {
-    color: #FFFFFF; 
+    color: #FFD119; 
 }
 .ow_box_menu {
     font-size: 0px;
