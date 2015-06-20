@@ -208,10 +208,12 @@ hr {
 }
 
 .ow_page_wrap { 
+    background-attachment: fixed;
     position: relative;
     background-image: url('images/promo.jpg');/** OW_Control type:image, key:backgroundImage, section:1. General Settings, label:3. Page background image **/
     background-repeat: no-repeat;
-    background-position: center 41px;    
+    background-position: center 41px;  
+    background-size: 100%;  
 }
 body > .ow_page_wrap {
     min-height: 100%;
@@ -237,7 +239,7 @@ body > .ow_page_wrap {
 }
 
 .ow_page_container .ow_page {
-    padding: 28px 16px 16px;
+    padding: 8px 16px 16px;
     min-height: 400px;
     color: #8B8F97;/** OW_Control key:textColor **/
     border-bottom-left-radius: 6px;
@@ -437,7 +439,7 @@ ul.ow_regular li {
     padding: 12px 0px 0px 10px;
 }
 .ow_logo_wrap a {
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #626060;
@@ -452,7 +454,7 @@ ul.ow_regular li {
     padding-left: 9px;
 }
 .ow_logo h2 {
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: serif;
     font-size: 32px;
     line-height: 32px;
     text-shadow: 1px 1px 0 #fefefe;
@@ -1027,10 +1029,10 @@ input[type=button]{
     background-image: url(images/ic_right_arrow.png);
     padding: 1px 31px 2px 0px;
     color: #979CA0;
-    font-weight: normal;
+    font-weight: bold;
     cursor: pointer;
     height: 30px;
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: serif;
     text-transform: uppercase;
     font-size: 13px;
     border: none;
@@ -1942,8 +1944,8 @@ body textarea.ow_newsfeed_status_input.invitation {
     height: auto;
     line-height: 16px;    
     overflow: hidden;
-    font-weight: normal;
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-weight: bold;
+    font-family: serif;
 }
 
 .ow_box_cap {
@@ -2777,7 +2779,7 @@ html body div .ow_ic_calendar{ background-image: url(images/ic_calendar.png); }
 html body div .ow_ic_cart{ background-image: url(images/ic_cart.png); }
 html body div .ow_ic_chat{ background-image: url(images/ic_chat.png); }
 html body div .ow_ic_clock{ background-image: url(images/ic_clock.png); }
-html body div .ow_ic_comment{ background-image: url(images/ic_comment.png); }
+html body div .ow_ic_comment{ background-image: url(images/ic_groups.png); }
 html body div .ow_ic_cut{ background-image: url(images/ic_cut.png); }
 html body div .ow_ic_dashboard{ background-image: url(images/ic_dashboard.png); }
 html body div .ow_ic_delete{ background-image: url(images/ic_delete.png); }
@@ -3005,7 +3007,7 @@ html[xmlns] .ow_main_menu.clearfix {
 
 .ow_content_menu{
     font-size: 0px;
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: serif;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -3269,7 +3271,7 @@ html body .ow_console .ow_tiny,
 }
 
 .ow_stdmargin{
-    margin-bottom: 28px;
+    margin-bottom: 0px;
 }
 
 .ow_smallmargin{
@@ -3941,7 +3943,7 @@ body .ow_avatar_console .avatar_console_label {
 
 /* ---- Photo styles ---- */
 .ow_photo_dragndrop {
-    font-family: 'UbuntuBold',"Trebuchet MS","Helvetica CY",sans-serif;
+    font-family: serif;
     text-transform: uppercase;
     color: #333;
     background-color: #707478;
@@ -5249,7 +5251,7 @@ body .floatbox_canvas .floatbox_container {
     padding: 8px 12px 0px;
     float: left;
     font-weight: normal;
-    font-family: 'UbuntuBold', "Trebuchet MS", "Helvetica CY", sans-serif;    
+    font-family: serif;    
 }
 .floatbox_header .ow_box_cap_icons {
     float: right;
@@ -5824,4 +5826,92 @@ td.sort_link li.active a:hover{
   background-color: #6a7073 ;
   }
 
+.btn-custom-darken.active {
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Colorado;
+    font-weight: bold;
+    }
+    .btn-custom-darken {
+    color: #FFFFFF;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0px;
+    font-family: Colorado;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #747a7d;
+    background-image: -moz-linear-gradient(top, #6a7073, #838a8d);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6a7073), to(#838a8d));
+    background-image: -webkit-linear-gradient(top, #6a7073, #838a8d);
+    background-image: -o-linear-gradient(top, #6a7073, #838a8d);
+    background-image: linear-gradient(to bottom, #6a7073, #838a8d);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6a7073', endColorstr='#ff838a8d', GradientType=0);
+    border-color: #838a8d #838a8d #5e6366;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #838a8d;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
+   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+   }
+  .btn-custom-darken:hover,
+  .btn-custom-darken:focus,
+  .btn-custom-darken:active,
+  .btn-custom-darken.active,
+  .btn-custom-darken.disabled,
+  .btn-custom-darken[disabled] {
+  color: #FFFFFF;
+  background-color: #838a8d;
+  *background-color: #767d80;
+  }
+  .btn-custom-darken:active,
+  .btn-custom-darken.active {
+  background-color: #6a7073 ;
+  }
+
+/*----------Fanright Nav Menu---------------*/
+
+.fanright_nav_menu {
+
+    height: 30px;
+    display: table;
+    background: repeat-x scroll 0% 0%;
+    margin: 0px;
+    width: 815px;
+}
+
+.nav_links{
+	
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px 0px;
+}
+
+ .fanright_nav_menu li.active a, .fanright_nav_menu li a:hover {
+    color: #FFD119;
+    text-decoration: none;
+}
+
+
+.fantasy {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 35px;
+}
+
+.persistent_links {
+    color: #FFF;
+    display: block;
+    font-size: 12px;
+    padding: 10px 8px 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px #171C20;
+    font-weight: bold;
+    width: 185px;
+}

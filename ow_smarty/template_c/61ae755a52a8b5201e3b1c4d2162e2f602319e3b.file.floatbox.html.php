@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2015-06-11 11:22:39
+<?php /* Smarty version Smarty-3.1.12, created on 2015-06-19 18:44:14
          compiled from "/var/www/html/ow_system_plugins/base/decorators/floatbox.html" */ ?>
-<?php /*%%SmartyHeaderCode:18834298195579a7bfca1183-24735231%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:137034776655849b3e08bf99-85883813%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18834298195579a7bfca1183-24735231',
+  'nocache_hash' => '137034776655849b3e08bf99-85883813',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5579a7bfca4d43_86669410',
+  'unifunc' => 'content_55849b3e08e553_17755570',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5579a7bfca4d43_86669410')) {function content_5579a7bfca4d43_86669410($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55849b3e08e553_17755570')) {function content_55849b3e08e553_17755570($_smarty_tpl) {?>
 <div style="display: none" id="floatbox_prototype">
 
     

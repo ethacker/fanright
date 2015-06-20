@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2015-06-11 11:22:39
+<?php /* Smarty version Smarty-3.1.12, created on 2015-06-19 18:44:14
          compiled from "/var/www/html/ow_system_plugins/base/views/components/my_avatar_widget.html" */ ?>
-<?php /*%%SmartyHeaderCode:9156436115579a7bfc72864-67812889%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:179918852055849b3e0586b2-08609860%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9156436115579a7bfc72864-67812889',
+  'nocache_hash' => '179918852055849b3e0586b2-08609860',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5579a7bfc7b9f3_67851926',
+  'unifunc' => 'content_55849b3e06bde7_69582303',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5579a7bfc7b9f3_67851926')) {function content_5579a7bfc7b9f3_67851926($_smarty_tpl) {?><?php if (!is_callable('smarty_function_decorator')) include '/var/www/html/ow_smarty/plugin/function.decorator.php';
+<?php if ($_valid && !is_callable('content_55849b3e06bde7_69582303')) {function content_55849b3e06bde7_69582303($_smarty_tpl) {?><?php if (!is_callable('smarty_function_decorator')) include '/var/www/html/ow_smarty/plugin/function.decorator.php';
 ?>
 <div class="ow_my_avatar_widget clearfix">
 	<div class="ow_left ow_my_avatar_img"><?php echo smarty_function_decorator(array('name'=>'avatar_item','data'=>$_smarty_tpl->tpl_vars['avatar']->value),$_smarty_tpl);?>

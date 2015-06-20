@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2015-06-11 11:22:39
+<?php /* Smarty version Smarty-3.1.12, created on 2015-06-19 18:44:13
          compiled from "/var/www/html/ow_themes/darklets/master_pages/general.html" */ ?>
-<?php /*%%SmartyHeaderCode:14270636635579a7bfafe797-67854971%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16116514655849b3de03d57-09325906%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '72dbd63ee82a48195e391cb07e8927aecd722b42' => 
     array (
       0 => '/var/www/html/ow_themes/darklets/master_pages/general.html',
-      1 => 1433974978,
+      1 => 1434750822,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14270636635579a7bfafe797-67854971',
+  'nocache_hash' => '16116514655849b3de03d57-09325906',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5579a7bfb28203_41330498',
+  'unifunc' => 'content_55849b3de2a183_77244504',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5579a7bfb28203_41330498')) {function content_5579a7bfb28203_41330498($_smarty_tpl) {?><?php if (!is_callable('smarty_function_component')) include '/var/www/html/ow_smarty/plugin/function.component.php';
+<?php if ($_valid && !is_callable('content_55849b3de2a183_77244504')) {function content_55849b3de2a183_77244504($_smarty_tpl) {?><?php if (!is_callable('smarty_function_component')) include '/var/www/html/ow_smarty/plugin/function.component.php';
 if (!is_callable('smarty_function_add_content')) include '/var/www/html/ow_smarty/plugin/function.add_content.php';
 if (!is_callable('smarty_function_text')) include '/var/www/html/ow_smarty/plugin/function.text.php';
 if (!is_callable('smarty_function_decorator')) include '/var/www/html/ow_smarty/plugin/function.decorator.php';
@@ -54,7 +54,13 @@ px;"></div>
 				<div class="ow_header_pic"></div>
 			<?php }?>
 		</div>
+
 		<div class="ow_page_container">
+			<div class="fanright_nav_menu"><ul class="nav_links"><li class="fantasy  btn-custom-darken">
+						<a class="persistent_links" href="http://ec2-52-26-104-96.us-west-2.compute.amazonaws.com/underconstruction.html">Fantasy</a></li><li class="fantasy  btn-custom-darken">
+						<a class="persistent_links" href="http://ec2-52-26-104-96.us-west-2.compute.amazonaws.com/underconstruction.html">Fanright Competition</a></li><li class="fantasy  btn-custom-darken">
+						<a class="persistent_links" href="http://ec2-52-26-104-96.us-west-2.compute.amazonaws.com/underconstruction.html">Pick'em Contests</a></li><li class="fantasy  btn-custom-darken">
+						<a class="persistent_links" href="http://ec2-52-26-104-96.us-west-2.compute.amazonaws.com/underconstruction.html">Exchange</a></li></ul></div>
 			<div class="ow_menu_wrap"><?php echo $_smarty_tpl->tpl_vars['main_menu']->value;?>
 </div>
 			<div class="ow_canvas">
